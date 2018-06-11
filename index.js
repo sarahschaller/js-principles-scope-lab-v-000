@@ -1,6 +1,6 @@
 var customerName = 'bob';
 
-function upperCaseCustomerName(name) {
+function upperCaseCustomerName() {
   return customerName.toUpperCase();
 
 }
@@ -9,6 +9,6 @@ function setBestCustomer() {
   bestCustomer = 'not bob';
 }
 
-function overwriteBestCustomer(name) {
-  
+function overwriteBestCustomer() {
+  const bestCustomer = 'maybe bob';
 }
